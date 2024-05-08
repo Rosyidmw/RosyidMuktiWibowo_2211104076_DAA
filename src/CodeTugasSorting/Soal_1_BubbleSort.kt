@@ -25,7 +25,7 @@ fun main() {
 
         return data
     }
-    val data = intArrayOf(1,7,4,3,6)
+    val data = intArrayOf(1,7,4,2,6)
     val sortedData = bubbleSort(data)
 
     println("Angka Ascending = ${sortedData.sorted()}")
